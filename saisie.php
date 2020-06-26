@@ -17,8 +17,8 @@
             <br />
             Type de projet<br />
             <select name="agtype">
-                <option value="agwordpress">Wordpress</option>
-                <option value="agvuejs">Vue.js</option>
+                <option value="Wordpress">Wordpress</option>
+                <option value="Vue.js">Vue.js</option>
             </select>
             <br />
             Option du projet<br />
