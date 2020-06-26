@@ -23,28 +23,30 @@ foreach($_GET['agoption'] as $option){
 }
 echo '</ul>';
 
-$prix = 0;
+
 
 if($option == 'Formulaire de contact avancé'){
-    $prix = 60;
+    echo 'Le tarif est de 60€';
 }
 elseif ($option == 'Adaptations mobile spécifiques'){
-    $prix = 80;
+    echo 'Le tarif est de 80€';
 }
 elseif ($option == 'Design personnalisé'){
-    $prix = 70;
+    echo 'Le tarif est de 70€';
 }
 elseif ($option == 'Formulaire de contact avancé' && $option == 'Adaptations mobile spécifiques'){
-    $prix = 140;
+    echo 'Le tarif est de 140€';
 }
 elseif ($option == 'Adaptations mobile spécifiques'&& $option == 'Design personnalisé'){
-    $prix = 150;
+    echo 'Le tarif est de 150€';
 }
 elseif($option == 'Formulaire de contact avancé' && $option == 'Adaptations mobile spécifiques' && $option == 'Design personnalisé' ){
-    $prix = 210;
+    echo 'Le tarif est de 210€';
 }
 
-echo "Le tarif est de : ".$prix.' €';
+echo 'Il y a une erreur';
+
+
 
 
 ?>
